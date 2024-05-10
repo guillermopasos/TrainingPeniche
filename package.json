@@ -1,0 +1,22 @@
+{
+  "name": "trainingpeniche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx playwright test --headed --project=chromium",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen https://www.saucedemo.com/",
+    "debug": "npx playwright test --debug --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
